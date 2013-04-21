@@ -13,9 +13,9 @@ public class MovieLister {
 		finder = new FileBasedMovieFinder("/movies.txt");
 	}
 
-	//	public MovieLister(MovieFinder finder){
-	//		this.finder = finder;
-	//	}
+		public MovieLister(MovieFinder finder) {
+			this.finder = finder;
+		}
 
 	public Movie[] moviesDirectedBy(String arg) {
 		List<Movie> allMovies = finder.findAll();
