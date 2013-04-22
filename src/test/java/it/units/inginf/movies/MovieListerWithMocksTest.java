@@ -9,8 +9,8 @@ import static org.mockito.Mockito.when;
 import java.util.ArrayList;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
-import org.mockito.Mockito;
 
 public class MovieListerWithMocksTest {
 	MovieFinder finder;
@@ -27,6 +27,7 @@ public class MovieListerWithMocksTest {
 		lister = new MovieLister(finder);
 	}
 
+	@Ignore
 	@Test
 	public void test() {
 		Movie[] movies = lister.moviesDirectedBy("Martin Scorsese");
