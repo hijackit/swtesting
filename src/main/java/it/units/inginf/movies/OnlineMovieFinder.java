@@ -1,7 +1,4 @@
-package it.units.inginf.web;
-
-import it.units.inginf.movies.Movie;
-import it.units.inginf.movies.MovieFinder;
+package it.units.inginf.movies;
 
 import java.io.InputStreamReader;
 import java.net.URL;

@@ -11,3 +11,9 @@ michael bay;the island
 michael bay;transformers
 michael bay;transformers 2
 michael bay;transformers 3
+tarantino;django unchained
+tarantino;dal tramonto all'alba
+tarantino;pulp fiction
+tarantino;kill bill
+tarantino;four rooms
+tarantino;bastardi senza gloria

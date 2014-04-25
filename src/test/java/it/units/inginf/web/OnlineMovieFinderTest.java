@@ -3,6 +3,7 @@ package it.units.inginf.web;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import it.units.inginf.movies.Movie;
+import it.units.inginf.movies.OnlineMovieFinder;
 
 import java.io.PrintWriter;
 import java.util.List;
