@@ -27,9 +27,9 @@ public class MovieListerWithMocksTest {
 		lister = new MovieLister(finder);
 	}
 
-	@Ignore
+//	@Ignore
 	@Test
-	public void test() {
+	public void shouldFindOneMovie() {
 		Movie[] movies = lister.moviesDirectedBy("Martin Scorsese");
 		assertEquals(1, movies.length);
 		verify(finder, times(1)).findAll();

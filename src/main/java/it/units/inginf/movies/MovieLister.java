@@ -3,8 +3,6 @@ package it.units.inginf.movies;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.google.inject.Inject;
-
 public class MovieLister {
 	//	@Inject
 	MovieFinder finder;
@@ -14,7 +12,7 @@ public class MovieLister {
 	}
 	
 	public MovieLister(MovieFinder finder) {
-//		this.finder = finder;
+		this.finder = finder;
 	}
 
 	public Movie[] moviesDirectedBy(String arg) {
