@@ -1,4 +1,4 @@
-package it.units.inginf.web;
+package it.units.inginf.movies;
 
 import java.io.IOException;
 import java.io.PrintWriter;

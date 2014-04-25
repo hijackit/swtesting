@@ -1,4 +1,4 @@
-package it.units.inginf.web;
+package it.units.inginf.movies;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -49,10 +49,9 @@ public class OnlineMovieFinderTest {
 	}
 
 	@Test
-	public void test() throws Exception {
+	public void shouldFindAllMovies() throws Exception {
 		List<Movie> movies = finder.findAll();
 		assertNotNull(movies);
 		assertEquals(5, movies.size());
 	}
-
 }
