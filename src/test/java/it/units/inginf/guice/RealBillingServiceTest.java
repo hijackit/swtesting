@@ -23,7 +23,7 @@ public class RealBillingServiceTest {
 	}
 
 	@After
-	public void tearUp() throws Exception {
+	public void tearDown() throws Exception {
 		TransactionLogFactory.setInstance(null);
 		CreditCardProcessorFactory.setInstance(null);
 	}
