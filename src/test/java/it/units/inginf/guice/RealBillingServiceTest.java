@@ -10,7 +10,7 @@ import org.junit.Test;
 
 public class RealBillingServiceTest {
 
-	PizzaOrder order = new PizzaOrder(100);
+	PizzaOrder pizzaOrder = new PizzaOrder(100);
 	CreditCard creditCard = new CreditCard("1234", 11, 2015);
 
 	InMemoryTransactionLog transactionLog = new InMemoryTransactionLog();
@@ -32,7 +32,7 @@ public class RealBillingServiceTest {
 	@Test
 	public void testSuccessfulCharge() {
 		RealBillingService billingService = new RealBillingService();
-		Receipt receipt = billingService.chargeOrder(order, creditCard);
+		Receipt receipt = billingService.chargeOrder(pizzaOrder, creditCard);
 
 		assertTrue(receipt.hasSuccessfulCharge());
 		assertEquals(100, receipt.getAmountOfCharge());
